@@ -25,7 +25,6 @@ a:hover{
 .profile-img{
   max-width: 100%;
   width:100%;
-  height: 15%;
 }
 
 .profile-text{
@@ -93,7 +92,7 @@ footer{
 
 #footer-name,#back-to-top{
   font-weight: 600;
-  padding:20;
+  padding:20px;
 }
 
 .contact-info{
@@ -137,11 +136,7 @@ hr{
     padding-left: 0px;
     margin:auto;
   }
-  .contact-title{
-    display:inline-flex;
-    margin:20px;
-    padding:5%;
-  }
+  
   .bottom-nav{
     display:flex;
   }
@@ -166,7 +161,10 @@ hr{
   }
 
   #contact{
-    margin:12%;
+    display:inline-flex;
+    padding-left:17%;
+    padding-top:6%;
+    padding-right:17%;
   }
   #back-to-top{
     display:none;
@@ -175,10 +173,6 @@ hr{
     display:flex;
   }
 
-  .contact-title{
-    margin-right:22px;
-
-  }
 }
 
 
